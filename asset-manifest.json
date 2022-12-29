@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/https://github.com/Alex-S17/goit-react-hw-02-phonebook/static/css/main.c44dac90.css",
-    "main.js": "/https://github.com/Alex-S17/goit-react-hw-02-phonebook/static/js/main.ff9429d7.js",
-    "index.html": "/https://github.com/Alex-S17/goit-react-hw-02-phonebook/index.html",
-    "main.c44dac90.css.map": "/https://github.com/Alex-S17/goit-react-hw-02-phonebook/static/css/main.c44dac90.css.map",
-    "main.ff9429d7.js.map": "/https://github.com/Alex-S17/goit-react-hw-02-phonebook/static/js/main.ff9429d7.js.map"
+    "main.css": "/goit-react-hw-02-phonebook/static/css/main.c44dac90.css",
+    "main.js": "/goit-react-hw-02-phonebook/static/js/main.ff9429d7.js",
+    "index.html": "/goit-react-hw-02-phonebook/index.html",
+    "main.c44dac90.css.map": "/goit-react-hw-02-phonebook/static/css/main.c44dac90.css.map",
+    "main.ff9429d7.js.map": "/goit-react-hw-02-phonebook/static/js/main.ff9429d7.js.map"
   },
   "entrypoints": [
     "static/css/main.c44dac90.css",
