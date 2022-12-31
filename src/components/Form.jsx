@@ -3,6 +3,10 @@ import PropTypes from "prop-types";
 import css from "./Form.module.css";
 
 export class Form extends Component {
+  static propTypes = {
+    onSubmit: PropTypes.func.isRequired,
+  };
+
   state = {
     name: '',
     number: '',
@@ -15,8 +19,10 @@ export class Form extends Component {
 
   handleFormSubmit = event => {
     event.preventDefault();
-    this.props.onSubmit(this.state);
-    this.formCleaner();
+    const onSubmitResult = this.props.onSubmit(this.state);    
+    if (onSubmitResult) {
+      this.formCleaner();
+    }      
   };
 
   formCleaner = () => {
@@ -61,6 +67,3 @@ export class Form extends Component {
   };
 };
 
-Form.propTypes = {
-  onSubmit: PropTypes.func.isRequired,
-};

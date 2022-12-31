@@ -28,8 +28,8 @@ export class App extends Component {
         name: name,
         number: number,
       };
-      this.setState({ contacts: [...contacts, newContact], });
-      return;
+      this.setState({ contacts: [...contacts, newContact], });              
+      return true;
     };
     return alert(`${name} is already in contacts`);        
   };
